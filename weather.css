@@ -1,0 +1,11 @@
+.weather {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(119, 116, 125);
+
+}

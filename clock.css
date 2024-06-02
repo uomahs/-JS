@@ -1,0 +1,13 @@
+#clock {
+    margin-bottom: -5px;
+    display: flex;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(64, 64, 65);
+}

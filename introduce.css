@@ -1,0 +1,141 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+
+}
+
+#login-form {
+    margin-left: 10px;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+
+}
+
+.hidden {
+    display: none;
+
+}
+
+.display {
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+
+
+}
+
+#todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+}
+
+.todoinput {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+.name {
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(119, 116, 125);
+
+
+}
+
+.todo {
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(119, 116, 125);
+
+
+}
+
+#quote {
+    margin-bottom: -70px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px rgb(119, 116, 125);
+
+}
+
+
+#greeting {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+    font-size: 30px;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent; /* 배경을 투명하게 설정 */
+    color:#ffffff;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+input[type=submit] {
+    width: 100px;
+    height: 32px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent; /* 배경을 투명하게 설정 */
+    color:#ffffff;
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+#todo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(119, 116, 125);
+    font-family: "Gowun Dodum", sans-serif;
+    font-optical-sizing: auto;
+    flex-direction: column;
+    border: 0;
+    outline: none;
+    background-color: transparent; /* 배경을 투명하게 설정 */
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/weather.css" />
+    <link rel="stylesheet" href="css/introduce.css" />
+    <link rel="stylesheet" href="css/quotoes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">   
+    <title>♡</title>
+  </head>
+  <body>
+    <h2 id="clock">00:00:00</h2><br>
+    <div id="weather" class="weather">
+      <span></span>
+      <span></span>
+    </div><br>
+    <div id="quote">
+      <span></span><br>
+      <span></span>
+    </div>
+    <br>
+    <form class="hidden" id="login-form">
+      <div class="name"> 이름을 입력해주세요<br> </div>
+      <div class= login>
+        <input
+        required
+        maxlength="15"
+        type="text"
+      />
+      <input class="logininput" type="submit" value="로그인" />
+    </div>
+    </form>
+<br><br>
+
+    <h1 class="hidden" id="greeting"></h1>
+    <div class="todo">할 일을 입력해주세요<br> </div>
+    <form id="todo-form">
+      <input class="todoinput" type="text">
+      <input type="submit" value="추가" />
+    </form>
+    <br>
+
+    <ul id="todo-list"></ul>
+    <div class="img"></div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
